@@ -1,13 +1,42 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended", "group:definitelyTyped"],
+  "extends": [
+    "config:recommended",
+    "schedule:daily",
+    "group:apollo-serverMonorepo",
+    "group:apolloclientMonorepo",
+    "group:awsappsyncMonorepo",
+    "group:aws-sdk-js-v3Monorepo",
+    "group:definitelyTyped",
+    "group:emotionMonorepo",
+    "group:graphqlcodegeneratorMonorepo",
+    "group:jestMonorepo",
+    "group:jestPlusTSJest",
+    "group:jestPlusTypes",
+    "group:material-uiMonorepo",
+    "group:nextjsMonorepo",
+    "group:prismaMonorepo",
+    "group:reactMonorepo",
+    "group:typescript-eslintMonorepo"
+  ],
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
   "postUpdateOptions": ["yarnDedupeHighest"],
   "prConcurrentLimit": 10,
   "updateInternalDeps": true,
   "recreateWhen": "never",
-  "nvm": {
-    "enabled": false
-  }
+  "assignees": ["Borales"],
+  "reviewers": ["Borales"],
+  "nvm": { "enabled": false },
+  "packageRules": [
+    {
+      "groupName": "nestjs-packages",
+      "matchPackageNames": ["reflect-metadata", "rxjs", "nestjs*", "@nestjs*"],
+      "prPriority": 10
+    },
+    {
+      "groupName": "aws-amplify-js",
+      "matchSourceUrls": ["https://github.com/aws-amplify/amplify-js{/,}**"]
+    }
+  ]
 }
