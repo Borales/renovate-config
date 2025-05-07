@@ -7,6 +7,6 @@ My personal Renovate configs for various projects.
 ```json
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>Borales:renovate-config"]
+  "extends": ["github>Borales/renovate-config"]
 }
 ```
