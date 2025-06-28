@@ -35,8 +35,7 @@
     },
     {
       "groupName": "react-packages",
-      "extends": ["monorepo:react"],
-      "matchPackageNames": ["@types/react", "@types/react-dom"]
+      "matchPackageNames": ["react", "react-dom", "@types/react", "@types/react-dom"]
     },
     {
       "groupName": "aws-amplify-js",
