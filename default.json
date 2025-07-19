@@ -16,7 +16,8 @@
     "group:material-uiMonorepo",
     "group:nextjsMonorepo",
     "group:prismaMonorepo",
-    "group:typescript-eslintMonorepo"
+    "group:typescript-eslintMonorepo",
+    "group:vite"
   ],
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
@@ -40,11 +41,20 @@
     },
     {
       "groupName": "react-packages",
-      "matchPackageNames": ["react", "react-dom", "@types/react", "@types/react-dom"]
+      "matchPackageNames": [
+        "react",
+        "react-dom",
+        "@types/react",
+        "@types/react-dom"
+      ]
     },
     {
       "groupName": "aws-amplify-js",
       "matchSourceUrls": ["https://github.com/aws-amplify/amplify-js{/,}**"]
+    },
+    {
+      "groupName": "eslint-plugins",
+      "matchPackageNames": ["eslint-plugin-*"]
     }
   ]
 }
