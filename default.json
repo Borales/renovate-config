@@ -16,7 +16,6 @@
     "group:material-uiMonorepo",
     "group:nextjsMonorepo",
     "group:prismaMonorepo",
-    "group:reactMonorepo",
     "group:typescript-eslintMonorepo"
   ],
   "labels": ["dependencies"],
@@ -38,6 +37,10 @@
         "@nestjs{/,}**"
       ],
       "prPriority": 10
+    },
+    {
+      "groupName": "react-packages",
+      "matchPackageNames": ["react", "react-dom", "@types/react", "@types/react-dom"]
     },
     {
       "groupName": "aws-amplify-js",
