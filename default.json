@@ -31,7 +31,12 @@
   "packageRules": [
     {
       "groupName": "nestjs-packages",
-      "matchPackageNames": ["reflect-metadata", "rxjs", "nestjs*", "@nestjs{/,}**"],
+      "matchPackageNames": [
+        "reflect-metadata",
+        "rxjs",
+        "nestjs*",
+        "@nestjs{/,}**"
+      ],
       "prPriority": 10
     },
     {
