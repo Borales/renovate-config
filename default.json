@@ -55,6 +55,10 @@
     {
       "groupName": "eslint-plugins",
       "matchPackageNames": ["eslint-plugin-*"]
+    },
+    {
+      "groupName": "zitadel-docker",
+      "matchSourceUrls": ["https://github.com/zitadel/zitadel{/,}**"]
     }
   ]
 }
