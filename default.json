@@ -17,7 +17,8 @@
     "group:nextjsMonorepo",
     "group:prismaMonorepo",
     "group:typescript-eslintMonorepo",
-    "group:vite"
+    "group:vite",
+    "group:definitelyTyped"
   ],
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
@@ -59,6 +60,10 @@
     {
       "groupName": "zitadel-docker",
       "matchSourceUrls": ["https://github.com/zitadel/zitadel{/,}**"]
+    },
+    {
+      "groupName": "github-actions",
+      "matchSourceUrls": ["https://github.com/actions{/,}**"]
     }
   ]
 }
