@@ -65,6 +65,13 @@
     {
       "groupName": "github-actions",
       "matchSourceUrls": ["https://github.com/actions{/,}**"]
+    },
+    {
+      "matchManagers": ["dockerfile", "docker-compose"],
+      "matchPackageNames": ["node"],
+      "versioning": "semver",
+      "matchUpdateTypes": ["minor", "patch"],
+      "enabled": false
     }
   ]
 }
