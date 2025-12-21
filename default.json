@@ -65,6 +65,10 @@
     {
       "groupName": "github-actions",
       "matchSourceUrls": ["https://github.com/actions{/,}**"]
+    },
+    {
+      "groupName": "graphql-yoga-packages",
+      "matchPackageNames": ["*graphql-yoga*"]
     }
   ]
 }
