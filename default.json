@@ -18,8 +18,7 @@
     "group:nextjsMonorepo",
     "group:prismaMonorepo",
     "group:typescript-eslintMonorepo",
-    "group:vite",
-    "group:definitelyTyped"
+    "group:vite"
   ],
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
@@ -33,11 +32,11 @@
   "packageRules": [
     {
       "groupName": "nestjs-packages",
-      "matchPackageNames": [
-        "reflect-metadata",
-        "rxjs",
-        "nestjs*",
-        "@nestjs{/,}**"
+      "matchPackagePatterns": [
+        "^reflect-metadata$",
+        "^rxjs$",
+        "^nestjs.*",
+        "^@nestjs/.*"
       ],
       "prPriority": 10
     },
@@ -56,7 +55,7 @@
     },
     {
       "groupName": "eslint-plugins",
-      "matchPackageNames": ["eslint-plugin-*"]
+      "matchPackagePatterns": ["^eslint-plugin-.*"]
     },
     {
       "groupName": "zitadel-docker",
@@ -68,7 +67,7 @@
     },
     {
       "groupName": "graphql-yoga-packages",
-      "matchPackageNames": ["*graphql-yoga*"]
+      "matchPackagePatterns": ["graphql-yoga"]
     }
   ]
 }
