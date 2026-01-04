@@ -17,6 +17,7 @@
     "group:storybookMonorepo",
     "group:nextjsMonorepo",
     "group:prismaMonorepo",
+    "group:kubbMonorepo",
     "group:typescript-eslintMonorepo",
     "group:vite"
   ],
