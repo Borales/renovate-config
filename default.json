@@ -17,7 +17,6 @@
     "group:storybookMonorepo",
     "group:nextjsMonorepo",
     "group:prismaMonorepo",
-    "group:kubbMonorepo",
     "group:typescript-eslintMonorepo",
     "group:vite"
   ],
@@ -31,6 +30,10 @@
   "reviewers": ["Borales"],
   "nvm": { "enabled": false },
   "packageRules": [
+    {
+      "groupName": "kubb-packages",
+      "matchPackagePatterns": "^@kubb/.*",
+    },
     {
       "groupName": "nestjs-packages",
       "matchPackagePatterns": [
