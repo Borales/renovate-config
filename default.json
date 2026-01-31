@@ -32,7 +32,7 @@
   "packageRules": [
     {
       "groupName": "kubb-packages",
-      "matchPackagePatterns": "^@kubb/.*",
+      "matchPackagePatterns": "^@kubb/.*"
     },
     {
       "groupName": "nestjs-packages",
@@ -72,6 +72,10 @@
     {
       "groupName": "graphql-yoga-packages",
       "matchPackagePatterns": ["graphql-yoga"]
+    },
+    {
+      "groupName": "ai-packages",
+      "matchSourceUrls": ["https://github.com/vercel/ai{/,}**"]
     }
   ]
 }
