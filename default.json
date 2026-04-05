@@ -76,6 +76,10 @@
     {
       "groupName": "ai-packages",
       "matchSourceUrls": ["https://github.com/vercel/ai{/,}**"]
+    },
+    {
+      "groupName": "hero-ui-packages",
+      "matchSourceUrls": ["https://github.com/heroui-inc/heroui{/,}**"]
     }
   ]
 }
