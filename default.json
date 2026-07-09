@@ -25,6 +25,9 @@
   "postUpdateOptions": ["yarnDedupeHighest"],
   "prConcurrentLimit": 10,
   "updateInternalDeps": true,
+  "toolSettings": {
+    "nodeMaxMemory": 2048
+  },
   "recreateWhen": "never",
   "assignees": ["Borales"],
   "reviewers": ["Borales"],
