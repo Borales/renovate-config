@@ -34,6 +34,10 @@
   "nvm": { "enabled": false },
   "packageRules": [
     {
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "1 days"
+    },
+    {
       "groupName": "kubb-packages",
       "matchPackagePatterns": "^@kubb/.*"
     },
