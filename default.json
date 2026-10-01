@@ -16,6 +16,7 @@
     "group:material-uiMonorepo",
     "group:storybookMonorepo",
     "group:nextjsMonorepo",
+    "group:fontsourceMonorepo",
     "group:typescript-eslintMonorepo",
     "group:vite"
   ],
@@ -90,6 +91,10 @@
     {
       "groupName": "hero-ui-packages",
       "matchSourceUrls": ["https://github.com/heroui-inc/heroui{/,}**"]
+    },
+    {
+      "matchPackageNames": ["pnpm"],
+      "allowedVersions": "<12"
     }
   ]
 }
