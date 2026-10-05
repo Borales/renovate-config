@@ -95,6 +95,10 @@
     {
       "matchPackageNames": ["pnpm"],
       "allowedVersions": "<12"
+    },
+    {
+      "groupName": "tailwind-packages",
+      "matchPackagePatterns": ["^tailwind-.*", "tailwindcss"]
     }
   ]
 }
