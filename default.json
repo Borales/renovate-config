@@ -97,6 +97,10 @@
       "allowedVersions": "<12"
     },
     {
+      "matchPackageNames": ["typescript"],
+      "allowedVersions": "<7"
+    },
+    {
       "groupName": "tailwind-packages",
       "matchPackagePatterns": ["^tailwind-.*", "tailwindcss"]
     }
