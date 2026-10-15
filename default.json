@@ -38,6 +38,18 @@
       "minimumReleaseAge": "1 days"
     },
     {
+      "matchPackageNames": [
+        "next",
+        "@next/*",
+        "react",
+        "react-dom",
+        "@types/react",
+        "@types/react-dom"
+      ],
+      "minimumReleaseAge": null,
+      "prPriority": 20
+    },
+    {
       "groupName": "kubb-packages",
       "matchPackagePatterns": "^@kubb/.*"
     },
