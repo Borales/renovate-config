@@ -113,6 +113,10 @@
       "allowedVersions": "<7"
     },
     {
+      "groupName": "stripe-packages",
+      "matchPackagePatterns": ["^@stripe/.*", "^stripe$"]
+    },
+    {
       "groupName": "tailwind-packages",
       "matchPackagePatterns": ["^tailwind-.*", "tailwindcss"]
     }
