@@ -113,6 +113,10 @@
       "allowedVersions": "<7"
     },
     {
+      "matchPackageNames": ["node", "@types/node"],
+      "allowedVersions": "<26"
+    },
+    {
       "groupName": "stripe-packages",
       "matchPackagePatterns": ["^@stripe/.*", "^stripe$"]
     },
