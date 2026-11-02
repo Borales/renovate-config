@@ -117,6 +117,11 @@
       "allowedVersions": "<26"
     },
     {
+      "matchDepTypes": ["engines"],
+      "matchPackageNames": ["node"],
+      "enabled": false
+    },
+    {
       "groupName": "stripe-packages",
       "matchPackagePatterns": ["^@stripe/.*", "^stripe$"]
     },
