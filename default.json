@@ -123,6 +123,10 @@
     {
       "groupName": "tailwind-packages",
       "matchPackagePatterns": ["^tailwind-.*", "tailwindcss"]
+    },
+    {
+      "groupName": "three-packages",
+      "matchPackagePatterns": ["^three$", "^@types/three$"]
     }
   ]
 }
