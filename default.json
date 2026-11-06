@@ -41,6 +41,7 @@
       "matchPackageNames": [
         "next",
         "@next/*",
+        "eslint-config-next",
         "react",
         "react-dom",
         "@types/react",
@@ -61,6 +62,7 @@
         "^nestjs.*",
         "^@nestjs/.*"
       ],
+      "minimumReleaseAge": null,
       "prPriority": 10
     },
     {
